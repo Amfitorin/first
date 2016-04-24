@@ -18,6 +18,16 @@ body{
 	max-width: 1200px;
 	margin: auto;
 }
+header{
+	font-family: Roboto;
+}
+.top-nav{
+	border-bottom: 1px #ccc solid;
+}
+nav{
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
 nav li{
 	list-style: none;
 	display: inline;
@@ -29,4 +39,40 @@ nav li a{
 nav li a.active,
 nav li a:hover{
 	color: #4CA42F;
+}
+nav li:nth-of-type(n+2){
+	margin-left: 10px;
+	border-left: 1px #ccc solid;
+	padding-left: 10px;
+}
+.head-logo img{
+	margin: 20px 0;
+}
+.head-logo .mail{
+	float: right;
+	text-align: right;
+	margin-right: 20px;
+}
+.head-logo .mail p{
+	font-size: 20px;
+	color:#888;
+	margin-bottom: 0;
+	margin-top: 25px;
+}
+.head-logo .mail a{
+	font-size: 32px;
+	color:#4CA42F;
+}
+.head-logo .cart{
+	float: right;
+	margin-top: 15px;
+	margin-right: 20px;
+	position: relative;
+}
+.head-logo .cart span{
+	position: absolute;
+	font-size: 20px;
+	color: #fff;
+	top: 26px;
+	left: 38px;
 }
