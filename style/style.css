@@ -1,0 +1,32 @@
+html{
+	box-sizing: border-box;
+}
+html *{
+	box-sizing: inherit;
+}
+body{
+    margin:0;
+    padding: 0;
+}
+.clearfix{
+    float: none;
+    visibility: hidden;
+    height: 0px;
+    clear: both;
+}
+.content{
+	max-width: 1200px;
+	margin: auto;
+}
+nav li{
+	list-style: none;
+	display: inline;
+}
+nav li a{
+	color:#000;
+	text-decoration: none;
+}
+nav li a.active,
+nav li a:hover{
+	color: #4CA42F;
+}
