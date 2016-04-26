@@ -104,19 +104,26 @@ nav li:nth-of-type(n+2){
 .head-bottom .search-wrapper{
     height: 34px;
     background-color: #fff;
-    display: inline-block;
+    float: left;
     width: 788px;
     margin-top: 8px;
+    box-shadow: 0 0 5px 3px #ccc inset;
 }
 .head-bottom .search-wrapper .search-icon{
     height: 30px;
     margin-top: 2px;
     border-right: 1px #888 solid;
     width: 42px;
-    display: inline-block;
+    float: left;
 }
 .head-bottom .search-wrapper input{
     border: none;
+    height: 24px;
+    margin-top: 5px;
+    width: 740px;
+}
+.head-bottom .search-wrapper input:focus{
+    outline: none;
 }
 .head-bottom .search-button{
     min-width: 86px;
