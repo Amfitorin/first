@@ -62,6 +62,7 @@ nav li:nth-of-type(n+2){
 .head-logo .mail a{
 	font-size: 32px;
 	color:#4CA42F;
+    text-decoration: none;
 }
 .head-logo .cart{
 	float: right;
@@ -75,4 +76,62 @@ nav li:nth-of-type(n+2){
 	color: #fff;
 	top: 26px;
 	left: 38px;
+}
+.head-bottom{
+    height: 50px;
+    background-color: #000;
+}
+.cat-header{
+    width: 270px;
+    height: 100%;
+    color: #fff;
+    font-size: 22px;
+    float: left;
+    border-left: 1px #888 solid;
+    border-right: 1px #888 solid;
+    padding-left: 30px;
+}
+.cat-header p{
+    line-height: 50px;
+    margin: 0;
+    font-family: RobotoBold;
+    letter-spacing: 1px;
+}
+.head-bottom .search{
+    max-width: 930px;
+    float:right;
+}
+.head-bottom .search-wrapper{
+    height: 34px;
+    background-color: #fff;
+    display: inline-block;
+    width: 788px;
+    margin-top: 8px;
+}
+.head-bottom .search-wrapper .search-icon{
+    height: 30px;
+    margin-top: 2px;
+    border-right: 1px #888 solid;
+    width: 42px;
+    display: inline-block;
+}
+.head-bottom .search-wrapper input{
+    border: none;
+}
+.head-bottom .search-button{
+    min-width: 86px;
+    font-size: 14px;
+    color: #fff;
+    font-family: RobotoBold;
+    background-color: #4CA42F;
+    text-align: center;
+    line-height: 34px;
+    min-height: 34px;
+    margin-top: 8px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.head-bottom .search-button:hover{
+    background-color: #444;
+    cursor: pointer;
 }
