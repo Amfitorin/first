@@ -16,7 +16,7 @@
 <?php foreach ($links as $link) { ?>
 <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
 <?php } ?>
-<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/stylesheet1.css" />
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/stylesheet.css" />
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/fonts.css" />
 <?php foreach ($styles as $style) { ?>
 <link rel="<?php echo $style['rel']; ?>" type="text/css" href="<?php echo $style['href']; ?>" media="<?php echo $style['media']; ?>" />
@@ -64,19 +64,25 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
   </div>
   </div>
   </div>
-  <div id="container">
+  <div id="container" class="clearfix">
   <?php if ($logo) { ?>
   <div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>"/></a></div>
   <?php } ?>
   <?php //echo $language; ?>
   <?php //echo $currency; ?>
   <?php echo $cart; ?>
+  </div>
+  <div class="search-wrapper">
+      <div id="container">
   <div id="search">
-    <div class="button-search"></div>
+    <div class="search-inner">
+        <span class="search-icon"></span>
     <input type="text" name="search" placeholder="<?php echo $text_search; ?>" value="<?php echo $search; ?>" />
+    </div>
+     <div class="button-search"><span>Искать</span></div>
   </div>
   </div>
-  
+  </div>
 
 </div>
 <div id="container">
